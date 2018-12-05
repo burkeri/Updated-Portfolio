@@ -74,7 +74,7 @@ body, html, .container, .row{
 img {
     height: 400px;
     width: 100%;
-    filter: grayscale(100%) blur(5px);
+    filter: grayscale(100%) blur(3px);
     
 }
 
@@ -115,10 +115,29 @@ img {
 button {
     margin-left: 10px;
     margin-right: 10px;
+    outline: none;
+}
+
+.btn-outline-light:focus{
+    box-shadow: none;
 }
 
 .git:hover, .live:hover {
     background-color: #ffcc66;
     border-color: #ffcc66;
     color: white;
+}
+
+#url {
+    color: black;
+    text-decoration: none;
+    margin-left: 15%;
+}
+
+#url:hover {
+    color: #a58bdf;
+}
+
+#links {
+    margin-bottom: 0;
 }
