@@ -95,14 +95,15 @@ img {
 .carousel-caption {
 }
 
-#name {
+.name {
     font-size: 70px;
-    background-size: 3px 1em;
-    box-shadow:
-        0px 3px #ffcc66;
-    display: inline-block;
+    text-decoration: underline #ffcc66;
     text-shadow: black 1px 0 10px;
     margin-bottom: 100px;
+}
+
+#hnh {
+    font-size: 35px;
 }
 
 #contact-header {
