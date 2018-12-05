@@ -74,14 +74,7 @@ body, html, .container, .row{
 img {
     height: 400px;
     width: 100%;
-    filter: grayscale(100%) blur(3px);
-    
-}
-
-#yellow {
-    height: 400px;
-    width: 100%;
-    background-color: aqua;
+    filter: grayscale(100%) blur(3px); 
 }
 
 .carousel-control-prev {
@@ -90,9 +83,6 @@ img {
 
 .carousel-control-next {
     right: 1%;
-}
-
-.carousel-caption {
 }
 
 .name {
@@ -141,4 +131,137 @@ button {
 
 #links {
     margin-bottom: 0;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1178px){
+
+    #left h1 {
+        font-size: 80px;
+    }
+
+}
+
+@media screen and (max-width: 1094px){
+
+    #left h1 {
+        font-size: 80px;
+    }
+
+    #left p {
+        font-size: 25px;
+    }
+
+    #left {
+        font-size: 15px;
+    }
+
+    .carousel-inner {
+        height: 350px;
+    }
+    
+    img {
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 1065px){
+
+    #left h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    #left {
+        padding-left: 25%;
+    }
+}
+
+@media screen and (max-width: 916px){
+
+    #left {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 797px){
+
+    #left {
+        padding-left: 15%;
+    }
+}
+
+@media screen and (max-width: 742px){
+
+    #left {
+        font-size: 13px;
+    }
+
+    #left p {
+        font-size: 20px;
+    }
+
+    #left h1 {
+        font-size: 70px;
+    }
+
+}
+
+@media screen and (max-width: 916px){
+
+    #left {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 607px){
+
+    #left {
+        font-size: 10px;
+    }
+
+    #left p {
+        font-size: 17px;
+    }
+
+    #left h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 530px){
+
+    #left h1 {
+        font-size: 40px;
+    }
+
+    .carousel-inner {
+        width: 100%;
+    }
+
+    #right h1 {
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 458px){
+
+    #right p {
+        font-size: 12px;
+    }
+
+    #right h1 {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 413px){
+
+    #left h1 {
+        font-size: 40px;
+    }
 }
